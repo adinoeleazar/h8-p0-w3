@@ -3,7 +3,7 @@ function dataHandling2(arr) {
 
 //gunakan splice dan tampilkan hasilnya
 arr.splice(4, 1, "Pria", "SMA Internasional Metro")
-arr.splice(1, arr[1] += " Elsharawy")
+arr.splice(1, 1, arr[1] += " Elsharawy")
 arr.splice(2, 1, "Provinsi " + arr[2])
 
 console.log(arr)
